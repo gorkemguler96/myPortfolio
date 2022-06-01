@@ -6,6 +6,7 @@ import flutter from '../../assests/flutter.png'
 import redux from '../../assests/redux.png'
 import sass from '../../assests/sass.png'
 import { motion } from 'framer-motion'
+import {AppWrap} from '../../wrapper'
 
 const scaleVariants = {
     vhileInView: {
@@ -21,7 +22,7 @@ const scaleVariants = {
 
 function Header(props) {
     return (
-        <div id={"home"} className={"app__header app__flex"}>
+        <div className={"app__header app__flex"}>
             <motion.div
                 whileInView={{x:[-100,0], opacity: [0,1] }}
                 transition={{duration:0.5}}
@@ -75,4 +76,4 @@ function Header(props) {
     );
 }
 
-export default Header;
+export default AppWrap(Header, 'home');
