@@ -88,3 +88,5 @@ export default AppWrap(
     'contact',
     'app__whitebg'
 );
+
+//sanity kismi ayarlanacak
