@@ -1,7 +1,7 @@
-import React, {useEffect,useState} from 'react';
+import React, {useState} from 'react';
 import './Footer.scss'
 import {AppWrap, MotionWrap} from "../../wrapper";
-import {client} from '../../client'
+import {client} from './client'
 import emaill from '../../assests/email.png'
 import mobile from '../../assests/mobile.png'
 
@@ -89,4 +89,3 @@ export default AppWrap(
     'app__whitebg'
 );
 
-//sanity kismi ayarlanacak

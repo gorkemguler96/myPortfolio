@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './Work.scss'
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import {AppWrap, MotionWrap} from "../../wrapper";
-import { urlFor, client } from "../../client";
+import { urlFor, client } from "../Footer/client";
 import {motion} from "framer-motion";
 
 function Work({AppWrap}) {
@@ -48,7 +48,7 @@ function Work({AppWrap}) {
             </h2>
 
             <div className={"app__work-filter"}>
-                {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item,index)=>(
+                {[ 'Web App', 'Mobile App', 'All'].map((item,index)=>(
                     <div
                         key={index}
                         onClick={()=>handleWorkFilter(item)}

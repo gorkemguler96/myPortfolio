@@ -123,7 +123,14 @@
     justify-content: center;
     align-items: center;
 
+
     transition: all 0.3s ease-in-out;
+    a{
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
 
     svg {
       width: 15px;

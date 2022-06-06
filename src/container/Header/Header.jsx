@@ -2,8 +2,8 @@ import React from 'react';
 import './Header.scss'
 import profile from '../../assests/son.png'
 import circle from '../../assests/circle.svg'
-import flutter from '../../assests/flutter.png'
 import redux from '../../assests/redux.png'
+import react from '../../assests/react.png'
 import sass from '../../assests/sass.png'
 import { motion } from 'framer-motion'
 import {AppWrap} from '../../wrapper'
@@ -66,7 +66,7 @@ function Header(props) {
                 whileInView={scaleVariants.vhileInView}
                 className={"app__header-circles"}
             >
-                {[flutter,redux,sass].map((circle, index)=>(
+                {[redux,react,sass].map((circle, index)=>(
                     <div className={"circle-cmp app__flex"} key={`circle-${index}`}>
                         <img src={circle} alt="circle"/>
                     </div>
