@@ -4,7 +4,7 @@ import {motion} from "framer-motion";
 import {HiChevronLeft,HiChevronRight} from "react-icons/hi";
 
 import { AppWrap,MotionWrap } from "../../wrapper";
-import {urlFor,client} from "../../client";
+import {urlFor,client} from "../Footer/client";
 
 
 function Testimonial(props) {

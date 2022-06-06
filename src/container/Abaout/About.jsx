@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './About.scss'
 import {motion} from "framer-motion";
-import {urlFor,client} from "../../client";
+import {urlFor,client} from "../Footer/client";
 import {AppWrap, MotionWrap} from '../../wrapper'
 
 function About(props) {
