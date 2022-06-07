@@ -11,6 +11,8 @@ function NavigationDots({active}) {
             {/*            className={"app__navigation-dot"}*/}
             {/*        />*/}
             {/*))}*/}
+
+
         </div>
     );
 }
