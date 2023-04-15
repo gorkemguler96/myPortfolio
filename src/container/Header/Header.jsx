@@ -39,7 +39,7 @@ function Header(props) {
 
                     <div className={"tag-cmp app__flex"}>
                         <p className="p-text">Frontend Developer</p>
-                        <p className="p-text">Freelancer</p>
+                        <p className="p-text">UI / UX DESIGNER</p>
                     </div>
                 </div>
             </motion.div>
